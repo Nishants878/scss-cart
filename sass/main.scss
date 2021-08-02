@@ -7,7 +7,7 @@
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: #F8FAFB;
-    
+  
  }
 main{
     width: 100%;
@@ -47,7 +47,7 @@ h2{
     color: #ffffff;
  font-family: $font-highlight; 
  width: 80%; 
- margin-top: 12rem;
+ margin-top: 13rem;
  margin-left: 2rem;
 }
 }
@@ -60,11 +60,46 @@ h2{
 }
 #right_blank_container{
    flex: 1;
-   border: 1px solid blue;
+   
 }
 #right_signup_container{
     flex: 3;
 width: 100%;
   
 border: 2px solid red;
+padding-top: 6rem;
+h1{
+    color: $primary-color;
+    font-family: $font-highlight;
+    letter-spacing: 0.1rem;
+}
+p{
+    color: $secondary-color;
+    font-family: $font-main;
+    margin-top: 1rem;
+}
+}
+
+.signup_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.signup_form_inputBx{
+    width: 100%;
+   margin-bottom: 1.2rem;
+    input{
+        width: 70%;
+        height: 3.5rem;
+        outline: none;
+       background-color: #F8FAFB;
+        border: 1.2px solid #bdc1c4;
+        box-sizing: border-box;
+        margin: 0;
+        border-radius: 10px;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
 }
