@@ -68,7 +68,23 @@ main {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
-  border: 1px solid #ccc;
-  margin-left: 0.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#right_blank_container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid blue;
+}
+
+#right_signup_container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  width: 100%;
+  border: 2px solid red;
 }
 /*# sourceMappingURL=main.css.map */

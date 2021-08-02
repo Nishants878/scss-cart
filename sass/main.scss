@@ -53,10 +53,18 @@ h2{
 }
 #rightContainer{
     flex: 3;
-    border: 1px solid #ccc;
-    margin-left: 0.1rem;
-}
-
-.right_signup_container{
+  
     
+    display: flex;
+   
+}
+#right_blank_container{
+   flex: 1;
+   border: 1px solid blue;
+}
+#right_signup_container{
+    flex: 3;
+width: 100%;
+  
+border: 2px solid red;
 }
