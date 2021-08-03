@@ -84,7 +84,6 @@ main {
       -ms-flex: 3;
           flex: 3;
   width: 100%;
-  border: 2px solid red;
   padding-top: 6rem;
 }
 
